@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <!--    Link for Font Awesome CDN   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <!--    Swiper CSS Link     -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!--    Linking the style.css file  -->
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <!--    Header start point  -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-lightbulb"></i> Nome da Escola</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <!--    Account form start point  -->
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+
+        <div class="buttons">
+            <span class="btn active login-btn">Login</span>
+            <span class="btn register-btn">Register</span>
+        </div>
+
+        <form class="login-form active" action="">
+            <h3>login now</h3>
+            <input type="email" placeholder="Enter your email..." class="box">
+            <input type="password" placeholder="Enter your password..." class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Register now</h3>
+            <input type="email" placeholder="Enter your email..." class="box">
+            <input type="password" placeholder="Enter your password..." class="box">
+            <input type="password" placeholder="Confirm your password..." class="box">
+            
+            <input type="submit" value="register now" class="btn">
+        </form>
+    </div>
+    <!--    Account form end point  -->
+    <!--    Header end point  -->
+
+
+
+    <section class="heading-link">
+        <h3>Courses</h3>
+        <p><a href="home.html">Home</a> / Courses</p>
+    </section>
+
+    <!--    Courses Section start point -->
+
+    <section class="courses">
+        <h1 class="heading">Famous courses that we offer</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="Images/CompSci.JPG" alt="">
+                    <h3>Computer Science</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/Maths.jpeg" alt="">
+                    <h3>Mathematics</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/CyberSec.JPG" alt="">
+                    <h3>Cyber Security</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/Engineering.png" alt="">
+                    <h3>Mechanical Engineering</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/Medicine.jpg" alt="">
+                    <h3>Medical Science</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/Arts.png" alt="">
+                    <h3>Arts and Design</h3>
+                </div>
+                <div class="content">
+                    <h3>Choose what's best for you!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae ullam saepe in.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="icons">
+                        <span><i class="fas fa-book"></i> 12 modules </span>
+                        <span><i class="fas fa-clock"></i> 6 hours </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more">
+            <div class="btn">Load more</div>
+        </div>
+    </section>
+
+
+
+
+    <!--    Courses Section end point   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    Footer start point  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> <i class="fas fa-lightbulb"></i> Nome da escola</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ratione delectus assumenda.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="courses.html" class="link">Courses</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Useful Links</h3>
+                <a href="#" class="link">Ask Questions</a>
+                <a href="#" class="link">Help Center</a>
+                <a href="#" class="link">Policy & Regulations</a>
+                <a href="#" class="link">Terms & Conditions</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Register for latest courses updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Enter your email..." id="" class="email">
+                    <input type="submit" value="Register" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="credit">© - All rights reserved |<span> Kushal Dilip</span></div>
+    </section>
+
+
+    
+
+    <!--    Footer end point  -->
+
+    
+    
+    <!--    Swiper JS Link    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!--    Personal main.js    -->
+    <script src="Assets/main.js"></script>
+</body>
+</html>
